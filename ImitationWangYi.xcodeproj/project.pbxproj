@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEA6D8551E210F9900A58CA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6D8541E210F9900A58CA3 /* main.m */; };
+		BEA6D8581E210F9900A58CA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6D8571E210F9900A58CA3 /* AppDelegate.m */; };
+		BEA6D85E1E210F9900A58CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA6D85C1E210F9900A58CA3 /* Main.storyboard */; };
+		BEA6D8601E210F9900A58CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA6D85F1E210F9900A58CA3 /* Assets.xcassets */; };
+		BEA6D8631E210F9900A58CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA6D8611E210F9900A58CA3 /* LaunchScreen.storyboard */; };
+		BEA6D86C1E210FC600A58CA3 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6D86B1E210FC600A58CA3 /* NewsViewController.m */; };
+		BEA6D8701E21107D00A58CA3 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6D86F1E21107D00A58CA3 /* TopViewController.m */; };
+		BEA6D8731E2110AA00A58CA3 /* EntertainmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6D8721E2110AA00A58CA3 /* EntertainmentViewController.m */; };
+		BEA6D8761E2110CC00A58CA3 /* SportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6D8751E2110CC00A58CA3 /* SportViewController.m */; };
+		BEA6D8791E2110E500A58CA3 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6D8781E2110E500A58CA3 /* VideoViewController.m */; };
+		BEA6D87C1E21110600A58CA3 /* CarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6D87B1E21110600A58CA3 /* CarViewController.m */; };
+		BEA6D87F1E21111B00A58CA3 /* ScienceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6D87E1E21111B00A58CA3 /* ScienceViewController.m */; };
+		BEA6D8821E21113500A58CA3 /* FashionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6D8811E21113500A58CA3 /* FashionViewController.m */; };
+		BEA6D8851E21114100A58CA3 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6D8841E21114100A58CA3 /* PhotoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEA6D8501E210F9900A58CA3 /* ImitationWangYi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImitationWangYi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA6D8541E210F9900A58CA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEA6D8561E210F9900A58CA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEA6D8571E210F9900A58CA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEA6D85D1E210F9900A58CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEA6D85F1E210F9900A58CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEA6D8621E210F9900A58CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEA6D8641E210F9900A58CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA6D86A1E210FC600A58CA3 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		BEA6D86B1E210FC600A58CA3 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		BEA6D86E1E21107D00A58CA3 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		BEA6D86F1E21107D00A58CA3 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
+		BEA6D8711E2110AA00A58CA3 /* EntertainmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntertainmentViewController.h; sourceTree = "<group>"; };
+		BEA6D8721E2110AA00A58CA3 /* EntertainmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntertainmentViewController.m; sourceTree = "<group>"; };
+		BEA6D8741E2110CC00A58CA3 /* SportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportViewController.h; sourceTree = "<group>"; };
+		BEA6D8751E2110CC00A58CA3 /* SportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportViewController.m; sourceTree = "<group>"; };
+		BEA6D8771E2110E500A58CA3 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		BEA6D8781E2110E500A58CA3 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		BEA6D87A1E21110600A58CA3 /* CarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarViewController.h; sourceTree = "<group>"; };
+		BEA6D87B1E21110600A58CA3 /* CarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarViewController.m; sourceTree = "<group>"; };
+		BEA6D87D1E21111B00A58CA3 /* ScienceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScienceViewController.h; sourceTree = "<group>"; };
+		BEA6D87E1E21111B00A58CA3 /* ScienceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScienceViewController.m; sourceTree = "<group>"; };
+		BEA6D8801E21113500A58CA3 /* FashionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FashionViewController.h; sourceTree = "<group>"; };
+		BEA6D8811E21113500A58CA3 /* FashionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FashionViewController.m; sourceTree = "<group>"; };
+		BEA6D8831E21114100A58CA3 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		BEA6D8841E21114100A58CA3 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEA6D84D1E210F9900A58CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEA6D8471E210F9900A58CA3 = {
+			isa = PBXGroup;
+			children = (
+				BEA6D8521E210F9900A58CA3 /* ImitationWangYi */,
+				BEA6D8511E210F9900A58CA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEA6D8511E210F9900A58CA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEA6D8501E210F9900A58CA3 /* ImitationWangYi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEA6D8521E210F9900A58CA3 /* ImitationWangYi */ = {
+			isa = PBXGroup;
+			children = (
+				BEA6D8561E210F9900A58CA3 /* AppDelegate.h */,
+				BEA6D8571E210F9900A58CA3 /* AppDelegate.m */,
+				BEA6D85C1E210F9900A58CA3 /* Main.storyboard */,
+				BEA6D85F1E210F9900A58CA3 /* Assets.xcassets */,
+				BEA6D8611E210F9900A58CA3 /* LaunchScreen.storyboard */,
+				BEA6D8641E210F9900A58CA3 /* Info.plist */,
+				BEA6D8531E210F9900A58CA3 /* Supporting Files */,
+				BEA6D86D1E21102500A58CA3 /* controller */,
+			);
+			path = ImitationWangYi;
+			sourceTree = "<group>";
+		};
+		BEA6D8531E210F9900A58CA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEA6D8541E210F9900A58CA3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEA6D86D1E21102500A58CA3 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEA6D86A1E210FC600A58CA3 /* NewsViewController.h */,
+				BEA6D86B1E210FC600A58CA3 /* NewsViewController.m */,
+				BEA6D86E1E21107D00A58CA3 /* TopViewController.h */,
+				BEA6D86F1E21107D00A58CA3 /* TopViewController.m */,
+				BEA6D8711E2110AA00A58CA3 /* EntertainmentViewController.h */,
+				BEA6D8721E2110AA00A58CA3 /* EntertainmentViewController.m */,
+				BEA6D8741E2110CC00A58CA3 /* SportViewController.h */,
+				BEA6D8751E2110CC00A58CA3 /* SportViewController.m */,
+				BEA6D8771E2110E500A58CA3 /* VideoViewController.h */,
+				BEA6D8781E2110E500A58CA3 /* VideoViewController.m */,
+				BEA6D87A1E21110600A58CA3 /* CarViewController.h */,
+				BEA6D87B1E21110600A58CA3 /* CarViewController.m */,
+				BEA6D87D1E21111B00A58CA3 /* ScienceViewController.h */,
+				BEA6D87E1E21111B00A58CA3 /* ScienceViewController.m */,
+				BEA6D8801E21113500A58CA3 /* FashionViewController.h */,
+				BEA6D8811E21113500A58CA3 /* FashionViewController.m */,
+				BEA6D8831E21114100A58CA3 /* PhotoViewController.h */,
+				BEA6D8841E21114100A58CA3 /* PhotoViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEA6D84F1E210F9900A58CA3 /* ImitationWangYi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA6D8671E210F9900A58CA3 /* Build configuration list for PBXNativeTarget "ImitationWangYi" */;
+			buildPhases = (
+				BEA6D84C1E210F9900A58CA3 /* Sources */,
+				BEA6D84D1E210F9900A58CA3 /* Frameworks */,
+				BEA6D84E1E210F9900A58CA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImitationWangYi;
+			productName = ImitationWangYi;
+			productReference = BEA6D8501E210F9900A58CA3 /* ImitationWangYi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEA6D8481E210F9900A58CA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = DY;
+				TargetAttributes = {
+					BEA6D84F1E210F9900A58CA3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K8KYS8V72F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BEA6D84B1E210F9900A58CA3 /* Build configuration list for PBXProject "ImitationWangYi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEA6D8471E210F9900A58CA3;
+			productRefGroup = BEA6D8511E210F9900A58CA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEA6D84F1E210F9900A58CA3 /* ImitationWangYi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEA6D84E1E210F9900A58CA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA6D8631E210F9900A58CA3 /* LaunchScreen.storyboard in Resources */,
+				BEA6D8601E210F9900A58CA3 /* Assets.xcassets in Resources */,
+				BEA6D85E1E210F9900A58CA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEA6D84C1E210F9900A58CA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA6D8701E21107D00A58CA3 /* TopViewController.m in Sources */,
+				BEA6D8761E2110CC00A58CA3 /* SportViewController.m in Sources */,
+				BEA6D8581E210F9900A58CA3 /* AppDelegate.m in Sources */,
+				BEA6D87C1E21110600A58CA3 /* CarViewController.m in Sources */,
+				BEA6D87F1E21111B00A58CA3 /* ScienceViewController.m in Sources */,
+				BEA6D8821E21113500A58CA3 /* FashionViewController.m in Sources */,
+				BEA6D8731E2110AA00A58CA3 /* EntertainmentViewController.m in Sources */,
+				BEA6D8791E2110E500A58CA3 /* VideoViewController.m in Sources */,
+				BEA6D8551E210F9900A58CA3 /* main.m in Sources */,
+				BEA6D8851E21114100A58CA3 /* PhotoViewController.m in Sources */,
+				BEA6D86C1E210FC600A58CA3 /* NewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEA6D85C1E210F9900A58CA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA6D85D1E210F9900A58CA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEA6D8611E210F9900A58CA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA6D8621E210F9900A58CA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEA6D8651E210F9900A58CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEA6D8661E210F9900A58CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEA6D8681E210F9900A58CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K8KYS8V72F;
+				INFOPLIST_FILE = ImitationWangYi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DY.ImitationWangYi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEA6D8691E210F9900A58CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K8KYS8V72F;
+				INFOPLIST_FILE = ImitationWangYi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DY.ImitationWangYi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEA6D84B1E210F9900A58CA3 /* Build configuration list for PBXProject "ImitationWangYi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA6D8651E210F9900A58CA3 /* Debug */,
+				BEA6D8661E210F9900A58CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA6D8671E210F9900A58CA3 /* Build configuration list for PBXNativeTarget "ImitationWangYi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA6D8681E210F9900A58CA3 /* Debug */,
+				BEA6D8691E210F9900A58CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEA6D8481E210F9900A58CA3 /* Project object */;
+}
